@@ -1,0 +1,72 @@
+body {
+  font-family: Arial;
+  background: #f6f6ef;
+  padding: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.loadButton {
+  padding: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.load-container {
+  padding-top: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.inactiveLink {
+  pointer-events: none;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  color: orange;
+  margin-bottom: 24px;
+}
+
+.post__title {
+  font-weight: bold;
+}
+
+.items {
+  display: grid;
+  row-gap: 16px;
+}
+
+.post {
+  background-color: white;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: grid;
+  row-gap: 12px;
+}
+
+.post__metadata {
+  font-size: 14px;
+  color: #444;
+}
+
+.loading {
+  color: #4d4d4d;
+  font-size: 18px;
+  font-weight: bold;
+}
